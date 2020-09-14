@@ -1,3 +1,5 @@
 'use strict';
 
-    console.log('Hello World from main.js!');
+// コメント
+
+console.log('Hello World from main.js!');
