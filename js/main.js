@@ -1,5 +1,11 @@
 'use strict';
 
-// コメント
+console.log(10 + 3);
+console.log(10 - 3);
+console.log(10 * 3);
+console.log(10 / 3);
+console.log(10 % 3);
+console.log(10 ** 3);
 
-console.log('Hello World from main.js!');
+console.log(2 + 10 * 3);
+console.log((2 + 10) * 3);
