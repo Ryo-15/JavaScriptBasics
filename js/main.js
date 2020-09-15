@@ -1,7 +1,8 @@
 'use strict';
 
-let price = 500;
-
-price = price + 100;
-price += 100;
+console.log(typeof "hello");
+console.log(typeof 5);
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof null);
 
