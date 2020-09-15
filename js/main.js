@@ -1,16 +1,15 @@
 'use strict';
 
-const price = 1200;
+const score = 47;
 
-console.log(price > 1000);
-console.log(price < 1000);
-console.log(price >= 1000);
-console.log(price <= 1000);
-console.log(price === 1000);
-console.log(price !== 1000);
+if (score >= 80) {
+  console.log('Great!');
+} else if (score > 60) {
+  console.log('Good.');
+} else {
+  console.log('OK...');
+}
 
-console.log(Boolean(0));
-console.log(Boolean('hello'));
 
 
 
