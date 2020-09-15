@@ -1,20 +1,8 @@
 'use strict';
 
-const signal = 'green';
+for (let i = 1; i <= 10; i++) {
+  // console.log('hello');
+  // console.log('hello' + i);
 
-switch (signal) {
-  case 'red':
-    console.log('Stop!');
-    break;
-  case 'yellow':
-    console.log('Caution!');
-    break;
-  case 'blue':
-  case 'green':
-    console.log('Go!');
-    break;
-  default:
-    console.log('Wrong signal!');
-    break;
+  console.log(`hello ${i}`);
 }
-
