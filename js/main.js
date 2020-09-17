@@ -1,13 +1,31 @@
 'use strict';
 
 {
-  const otherScores = [10, 20];
-  const scores = [80, 90, 40, 70, ...otherScores];
-  console.log(scores);
+  const scores = [80, 90, 40, 70];
 
-  function sum(a, b) {
-    console.log(a + b);
+  // const [a, b, c, d] = scores;
+  // console.log(a);
+  // console.log(b);
+  // console.log(c);
+  // console.log(d);
+
+  // const [a, b, ...others] = scores;
+  // console.log(a);
+  // console.log(b);
+  // console.log(others);
+
+  let x = 30;
+  let y = 70;
+  [x, y] = [y, x];
+  console.log(x);
+  console.log(y);
+}
+
+{
+  const scores = [80, 90, 40, 70];
+  scores.splice(1, 0, 40, 50);
+
+  for (let i = 0; i < scores.length; i++) {
+    console.log(`Score ${i}: ${scores[i]}`);
   }
-
-  sum(...otherScores);
 }
