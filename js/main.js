@@ -1,10 +1,10 @@
 'use strict';
 
 {
-  const scores = [80, 90, 40, 70];
-
-  // scores.forEach((score) => {
-  scores.forEach((score, index) => {
-    console.log(`Score ${index}: ${score}`);
-  });
+  const prices = [180, 190, 200];
+  // const updatedPrices = prices.map((price) => {
+  //   return price + 20;
+  // });
+  const updatedPrices = prices.map(price => price + 20);
+  console.log(updatedPrices);
 }
