@@ -1,21 +1,11 @@
 'use strict';
 
 {
-  // let x = 1;
-  // let y = x;
-  // x = 5;
-  // console.log(x);
-  // console.log(y);
+  const str = 'hello';
+  // console.log(str.length);
 
-  // let x = [1, 2];
-  // let y = x;
-  // x[0] = 5;
-  // console.log(x);
-  // console.log(y);
+  // str.substring(開始位置, 修了位置);
+  console.log(str.substring(2, 4));
 
-  let x = [1, 2];
-  let y = [...x];
-  x[0] = 5;
-  console.log(x);
-  console.log(y);
+  console.log(str[1]);
 }
