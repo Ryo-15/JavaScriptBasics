@@ -15,6 +15,12 @@
       this.likeCount++;
       this.show();
     }
+
+    // 静的メソッド
+    // thisは使えない
+    static showInfo() {
+      console.log('Post class version 1.0');
+    }
   }
 
   const posts = [
@@ -23,6 +29,8 @@
   ];
 
   posts[0].like();
+
+  Post.showInfo();
 
   // posts[0].show();
   // posts[1].show();
